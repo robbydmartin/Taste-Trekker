@@ -1,12 +1,15 @@
-function RecipeCard({recipe}) {
+function RecipeCard({ recipe }) {
+
     return (
-        <div>
-            <h3>{recipe.title}</h3>
-            <div>
-                <img src="${recipe.image}" alt={recipe.title}></img>
+        <div className="recipe-card">
+            <div className="recipe-title">
+                <h1>{recipe.title}</h1>
+            </div>
+            <div className="recipe-image">
+                <img src={recipe.image} alt={recipe.title}></img>
             </div>
         </div>
     );
-};
+}
 
 export default RecipeCard
