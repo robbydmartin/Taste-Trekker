@@ -1,0 +1,9 @@
+.home {
+  width: 100%;
+}
+
+.random-recipe-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,14 @@
+.nav-bar {
+    background-color: coral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+a {
+    color: black;
+    padding: 2%;
+}
+
+a:hover {
+    color: whitesmoke;
+}

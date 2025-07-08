@@ -1,4 +1,5 @@
 import RecipeCard from "../components/RecipeCard";
+import "../css/Home.css";
 import { useState, useEffect } from "react";
 import { getRandomRecipes } from "../services/api";
 
