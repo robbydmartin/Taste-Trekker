@@ -1,14 +1,16 @@
 .nav-bar {
-    background-color: coral;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
     color: black;
+    width: 100%;
 }
 
 a {
     color: black;
-    padding: 2%;
+    padding-right: 2%;
 }
 
 a:hover {
-    color: whitesmoke;
+    color: gainsboro;
 }

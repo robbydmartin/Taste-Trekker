@@ -2,8 +2,8 @@
   width: 100%;
 }
 
-.random-recipe-grid {
+.recipe-grid {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  gap: 1%;
 }

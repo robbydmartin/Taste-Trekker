@@ -1,10 +1,12 @@
 .recipe-card {
-    background-color: whitesmoke;
+    flex-basis: calc(20% - 1%);
+    border: solid;
+    border-color: gainsboro;
 }
 
 .recipe-title {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: medium;
+    font-size: small;
     text-align: center;
 }
 
