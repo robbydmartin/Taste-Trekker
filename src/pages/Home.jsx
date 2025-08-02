@@ -89,7 +89,7 @@ function Home() {
                 <h4>Random Recipes to try:</h4>
                 <div className="recipe-grid">
                     {randomRecipes.map((recipe) => (
-                        <RecipeCard recipe={recipe} key={recipe.id}/>
+                        <RecipeCard recipe={recipe} key={recipe.id} />
                     ))}
                 </div>
                 </>

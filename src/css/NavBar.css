@@ -9,8 +9,13 @@
 a {
     color: black;
     padding-right: 2%;
+    float: left;
 }
 
 a:hover {
     color: gainsboro;
+}
+
+.search {
+    float: right;
 }

@@ -29,7 +29,7 @@ const RecipeDetails = () => {
     }, [recipeId]);
 
     return (
-        <div>
+        <div className="recipe-details">
         
         {error && <div className="error-message">{error}</div>}
         {loading ? (

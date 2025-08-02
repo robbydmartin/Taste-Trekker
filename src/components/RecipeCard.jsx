@@ -10,7 +10,6 @@ function RecipeCard({ recipe }) {
             </div>
             <div className="recipe-title">
                 <Link to={`/recipes/${recipe.id}`}><h3>{recipe.title}</h3></Link>
-                {recipe.id}
             </div>
         </div>
     );
